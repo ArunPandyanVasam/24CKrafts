@@ -1,70 +1,100 @@
-/* JobListings.module.css */
+/* Job Listings Section */
 .jobListingsSection {
-  padding: 40px 5%;
+  padding: 50px 5%;
   color: white;
+  text-align: center;
 }
 
+.title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+/* Job List Grid */
 .jobList {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
 }
 
+/* Job Card */
 .jobCard {
   background-color: #222;
-  padding: 15px;
-  border-radius: 10px;
+  padding: 20px;
+  border-radius: 12px;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s ease-in-out;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .jobCard:hover {
-  transform: translateY(-5px);
+  transform: translateY(-7px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
+/* Job Details */
 .jobTitle {
-  font-size: 1.4rem;
-  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 
 .company {
   font-size: 1rem;
-  color: #ccc;
+  color: #bbb;
 }
 
 .location {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #ffcc00;
-  margin: 5px 0;
+  margin: 6px 0;
 }
 
 .salary {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #66ff99;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .jobDescription {
   font-size: 1rem;
   color: #ccc;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
+/* Apply Button */
 .applyButton {
   width: 100%;
   padding: 12px;
-  background-color: #28a745;
+  background: linear-gradient(90deg, #28a745, #218838);
   color: white;
   border: none;
   font-size: 1rem;
+  font-weight: bold;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 6px;
   margin-top: 10px;
-  transition: background-color 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .applyButton:hover {
-  background-color: #218838;
+  background: linear-gradient(90deg, #218838, #1e7e34);
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .jobListingsSection {
+    padding: 40px 8%;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .jobList {
+    grid-template-columns: 1fr;
+  }
 }
