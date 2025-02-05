@@ -1,0 +1,185 @@
+.eventTicketing {
+  padding: 40px 5%;
+  color: white;
+  background-color: #111;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.eventList {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  scrollbar-width: none;
+}
+
+.eventList::-webkit-scrollbar {
+  display: none;
+}
+
+.eventCard {
+  min-width: 220px;
+  background-color: #222;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.eventCard:hover {
+  transform: scale(1.02);
+}
+
+.eventPoster {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.eventTitle {
+  font-size: 1.2rem;
+  margin: 10px 0 5px;
+}
+
+.eventDate {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.bookingSection {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #222;
+  border-radius: 10px;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.showtimeSelection {
+  margin-bottom: 15px;
+}
+
+.showtimeSelection label {
+  font-size: 1.1rem;
+}
+
+.showtimeSelection select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  font-size: 1rem;
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+
+.seatSelection {
+  margin-bottom: 15px;
+}
+
+.seatSelection label {
+  font-size: 1.1rem;
+}
+
+.seatGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  background-color: #444;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.seat:hover {
+  background-color: #666;
+}
+
+.selectedSeat {
+  background-color: #f54242;
+}
+
+.paymentSection {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #222;
+  border-radius: 8px;
+}
+
+.paymentSection h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.paymentSection label {
+  display: block;
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+.paymentSection input {
+  margin-right: 10px;
+}
+
+.bookNowButton {
+  width: 100%;
+  padding: 12px;
+  background-color: #f54242;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.bookNowButton:hover {
+  background-color: #e03535;
+}
+
+.bookNowButton:disabled {
+  background-color: #777;
+  cursor: not-allowed;
+}
+
+.successMessage {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  color: #4caf50;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ticketButton {
+  width: 100%;
+  padding: 12px;
+  background-color: #f54242;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.ticketButton:hover {
+  background-color: #e03535;
+}

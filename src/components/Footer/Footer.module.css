@@ -1,0 +1,116 @@
+.footer {
+  background-color: #141414;
+  padding: 40px 10%;
+  color: #757575;
+  font-size: 14px;
+}
+
+/* Signup Section */
+.signupSection {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.signupSection h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.signupForm {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.emailInput {
+  padding: 12px;
+  width: 300px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.getStartedButton {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.getStartedButton:hover {
+  background-color: darkred;
+}
+
+/* Footer Links */
+.footerContent {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footerText {
+  margin-bottom: 20px;
+}
+
+.footerLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.footerLinks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerLinks li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footerLinks li:hover {
+  color: white;
+}
+
+/* Language Selector */
+.languageSelector {
+  margin-top: 20px;
+}
+
+.languageSelector select {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .signupForm {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .emailInput {
+    width: 100%;
+  }
+
+  .getStartedButton {
+    width: 100%;
+  }
+}

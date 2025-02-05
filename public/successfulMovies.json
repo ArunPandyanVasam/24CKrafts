@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "title": "The Sci-Fi Epic",
+      "description": "This incredible journey reached its goal and exceeded expectations.",
+      "poster": "/assets/successfulMovies/drama.jpg",
+      "funded": 1200000
+    },
+    {
+      "id": 2,
+      "title": "Heartwarming Drama",
+      "description": "A beautiful drama that received overwhelming support from its backers.",
+      "poster": "/assets/successfulMovies/drama.jpg",
+      "funded": 800000
+    }
+  ]
+  

@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "title": "Summer Movie Premiere",
+      "description": "Join us for the world premiere of the most anticipated movie of the year!",
+      "poster": "assets/upcomingEvents/scifi.jpg",
+      "date": "2025-06-15T00:00:00Z"
+    }, 
+    {
+      "id": 2,
+      "title": "Film Industry Awards 2025",
+      "description": "Celebrate the best in film with the biggest awards night in the industry.",
+      "poster": "assets/upcomingEvents/scifi.jpg",
+      "date": "2025-07-30T00:00:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Fall Film Fest",
+      "description": "A collection of indie films showcasing emerging filmmakers.",
+      "poster": "assets/upcomingEvents/scifi.jpg",
+      "date": "2025-09-10T00:00:00Z"
+    },
+    {
+      "id": 4,
+      "title": "Virtual Movie Masterclass",
+      "description": "A live session with world-renowned directors discussing their craft.",
+      "poster": "assets/upcomingEvents/scifi.jpg",
+      "date": "2025-10-05T00:00:00Z"
+    },
+    {
+      "id": 5,
+      "title": "Winter Film Showcase",
+      "description": "An exclusive screening of this winter's most exciting films.",
+      "poster": "assets/upcomingEvents/scifi.jpg",
+      "date": "2025-12-01T00:00:00Z"
+    }
+  ]
+  

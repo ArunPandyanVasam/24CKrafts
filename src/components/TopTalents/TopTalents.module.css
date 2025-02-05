@@ -1,0 +1,66 @@
+.topTalentsSection {
+  padding: 40px 5%;
+  color: white;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.talentList {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  scrollbar-width: none;
+  padding-bottom: 10px;
+}
+
+.talentList::-webkit-scrollbar {
+  display: none;
+}
+
+.talentCard {
+  min-width: 180px;
+  background-color: #222;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.talentCard:hover {
+  transform: scale(1.02);
+}
+
+.talentImage {
+  width: 100%;
+  border-radius: 2%;
+  margin-bottom: 10px;
+}
+
+.talentName {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.talentProfession {
+  font-size: 1rem;
+  color: #bbb;
+  margin-bottom: 10px;
+}
+
+.likeButton {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+  transition: transform 0.2s ease-in-out;
+}
+
+.likeButton:hover {
+  transform: scale(1.1);
+}

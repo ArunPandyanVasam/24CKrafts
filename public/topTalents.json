@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Leonardo DiCaprio",
+      "profession": "Actor",
+      "image": "/assets/talents/dicaprio.jpg",
+      "likes": 1500
+    },
+    {
+      "id": 2,
+      "name": "Christopher Nolan",
+      "profession": "Director",
+      "image": "/assets/talents/dicaprio.jpg",
+      "likes": 2000
+    },
+    {
+      "id": 3,
+      "name": "Scarlett Johansson",
+      "profession": "Actress",
+      "image": "/assets/talents/dicaprio.jpg",
+      "likes": 1800
+    }
+  ]
+  

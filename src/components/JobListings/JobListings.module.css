@@ -1,0 +1,70 @@
+/* JobListings.module.css */
+.jobListingsSection {
+  padding: 40px 5%;
+  color: white;
+}
+
+.jobList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.jobCard {
+  background-color: #222;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.jobCard:hover {
+  transform: translateY(-5px);
+}
+
+.jobTitle {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.company {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.location {
+  font-size: 0.9rem;
+  color: #ffcc00;
+  margin: 5px 0;
+}
+
+.salary {
+  font-size: 0.9rem;
+  color: #66ff99;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.jobDescription {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.applyButton {
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.applyButton:hover {
+  background-color: #218838;
+}

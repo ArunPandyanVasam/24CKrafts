@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "title": "Epic Sci-Fi Adventure",
+      "description": "Join the journey of a lifetime as a group of explorers discover a new planet...",
+      "poster": "/assets/crowdfundingMovies/adventure.jpg",
+      "goal": 1000000,
+      "funded": 350000
+    },
+    {
+      "id": 2,
+      "title": "Historical Drama",
+      "description": "A gripping tale of love and war set during the Civil War era.",
+      "poster": "/assets/crowdfundingMovies/adventure.jpg",
+      "goal": 500000,
+      "funded": 150000
+    },
+    {
+      "id": 3,
+      "title": "Action Thriller",
+      "description": "A former spy is pulled back into a dangerous world to prevent a global crisis.",
+      "poster": "/assets/crowdfundingMovies/adventure.jpg",
+      "goal": 2000000,
+      "funded": 750000
+    }
+  ]
+  
