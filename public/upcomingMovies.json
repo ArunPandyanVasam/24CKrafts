@@ -61,5 +61,68 @@
       "D3",
       "D4"
     ]
+  },
+  {
+    "id": 4,
+    "title": "Sci-Fi Blockbuster",
+    "releaseDate": "May 5, 2025",
+    "poster": "/assets/upcomingEvents/scifi.jpg",
+    "showtimes": [
+      "1:00 PM",
+      "4:00 PM",
+      "8:00 PM"
+    ],
+    "seats": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Romantic Comedy",
+    "releaseDate": "May 5, 2025",
+    "poster": "/assets/upcomingEvents/scifi.jpg",
+    "showtimes": [
+      "1:00 PM",
+      "4:00 PM",
+      "8:00 PM"
+    ],
+    "seats": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Action Thriller",
+    "releaseDate": "May 5, 2025",
+    "poster": "/assets/upcomingEvents/scifi.jpg",
+    "showtimes": [
+      "1:00 PM",
+      "4:00 PM",
+      "8:00 PM"
+    ],
+    "seats": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ]
   }
 ]
