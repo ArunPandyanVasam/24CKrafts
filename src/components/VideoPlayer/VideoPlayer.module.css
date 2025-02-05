@@ -1,39 +1,89 @@
+/* VideoPlayer.module.css */
 .videoPlayerContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: #000;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-  }
-  
-  .video {
-    width: 100%;
-    border-radius: 8px;
-  }
-  
-  .controls {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: #141414;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.8);
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(0.9);
+}
+
+.videoPlayerContainer.fullscreen {
+  transform: scale(1);
+}
+
+.video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+  background-color: #333;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+  gap: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  padding: 0 20px;
+}
+
+.controlButton {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #e5e5e5;
+  font-size: 28px;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.controlButton:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+
+.controlButton:focus {
+  outline: none;
+}
+
+.controlButton:active {
+  transform: scale(1);
+}
+
+button:last-child {
+  margin-left: 25px;
+}
+
+@media (max-width: 768px) {
+  .videoPlayerContainer {
+    max-width: 95%;
   }
   
   .controlButton {
-    background-color: transparent;
-    border: none;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-    padding: 5px;
-    transition: transform 0.2s ease-in-out;
+    font-size: 24px;
+    padding: 10px;
   }
-  
-  .controlButton:hover {
-    transform: scale(1.2);
+}
+
+@media (max-width: 480px) {
+  .controlButton {
+    font-size: 22px;
+    padding: 8px;
   }
-  
+}
