@@ -125,7 +125,11 @@
 
 /* CTA Button */
 .ctaButton {
-  width: 100%;
+  display: flex; /* Use flex to center it */
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  width: 90%; /* Keep it inside the card */
+  margin: 10px auto 0; /* Centering using margin */
   padding: 12px;
   background-color: #e50914;
   color: white;
@@ -133,9 +137,10 @@
   font-size: 1rem;
   cursor: pointer;
   border-radius: 5px;
-  margin-top: 10px;
   transition: background 0.3s;
 }
+
+
 
 .ctaButton:hover {
   background-color: #b20710;

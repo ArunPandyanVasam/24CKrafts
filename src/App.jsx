@@ -7,6 +7,7 @@ import { Crowdfunding } from "./pages/Crowdfunding/Crowdfunding";
 import { Events } from "./pages/Events/Events";
 import { Jobs } from "./pages/Jobs/Jobs";
 import { Profile } from "./pages/Profile/Profile";
+import { PersonalPage } from "./components/PersonalPage/PersonalPage";
 
 function App() {
   return (
